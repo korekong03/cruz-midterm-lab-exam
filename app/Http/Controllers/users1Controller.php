@@ -4,14 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class post extends Controller
+class users1Controller extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+       // return Author::all();
+       // return Author::where('fname','lname',)->get();
+        
     }
 
     /**
